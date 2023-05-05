@@ -47,7 +47,7 @@ def Register():
             print("\n")
         if userAlreadyExists(user, password):
             while(True):
-                error = input("User already exists! Do you want to login instead? Press 'T' to try again or 'L' to login, 'E' to exit"  )
+                error = input("User already exists! Do you want to login instead? Press 'T' to try again or 'L' to login, 'E' to exit" )
                 if error == 't' or error == 'T':
                     Register()
                     break
