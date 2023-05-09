@@ -17,7 +17,7 @@ def main():
             break
     if choice == '1':
         Register()
-    else:
+    else: 
         login()
 
 
