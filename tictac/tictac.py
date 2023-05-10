@@ -53,6 +53,7 @@ def turn(player):
         board[pos] = player
         display_board()
         
+        
 def flip_player():
     global current_player
     if current_player == "X":
